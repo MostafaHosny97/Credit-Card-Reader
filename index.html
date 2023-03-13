@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Reader</title>
+    <link rel="icon" href="images/6000202389196.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section id="spinnerLoading" class=" justify-content-center align-items-center text-white">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </section>
+
+    <header id="overview" class="d-flex justify-content-between align-items-center position-relative">
+        <div class="home-nav text-white">
+            <div class="home-menu">
+                <button class="btn-hover btn btn-outline-dark text-white fw-bold wow bounceInDown">SIGN IN</button>
+                <button class="btn-hover btn btn-outline-dark fw-bold mx-2 wow bounceInRight"><a href="#shop" class="text-white">SHOP</a></button>
+            </div>
+            <div class="home-logo rounded" id="backToTop">
+                <div class="home-logo-2"></div>
+            </div>
+        </div>
+        <div class="container header-content pl-5 text-white">
+            <p class="wow bounceInDown">SQUARE MAGSTRIPE READER</p>
+            <h2 class="wow bounceInUp">Small credit card <br>reader, big possibilities.</h2>
+            <button class="btn btn-primary px-3 my-2 text-white fw-bold">GET A FREE READER</button>
+            <p class="overview-link my-3" href="#">Learn about contactless and chip ></p>
+        </div>
+    </header>
+
+    <section id="getstarted">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light border py-3 sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#overview">OVERVIEW</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#features">FEATURES</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#tech-specs">TECH SPECS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#pricing">PRICING</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-dark fw-bold" type="submit"><a href="#getstarted"> GET STARTED</a></button>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row my-5 d-flex justify-content-center align-items-center ">
+                <div class="col-md-3 text-center wow bounceInLeft" style="width: 17rem;">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <div class="overview-text ">
+                        <h5 class="fw-bold">Accept credit cards anywhere</h5>
+                        <p class="text-muted">Free Square Reader works with the free Square Register app 10 allow everyone to take payments on their smartphone or tablet
+                            <br><a href="#">Learn about a more ></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center wow bounceInUp" style="width: 18rem;">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <div class="overview-text ">
+                        <h5 class="fw-bold">Works with IOS and Android</h5>
+                        <p class="text-muted">Square Reader plugs into the standard meadset jack of your smartphone or tablet. Never miss a sale again.
+                            <br><a href="#">Learn about a more ></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center wow bounceInUp" style="width: 18rem;">
+                    <i class="fa-sharp fa-solid fa-lock"></i>
+                    <div class="overview-text ">
+                        <h5 class="fw-bold">Serious security</h5>
+                        <p class="text-muted">Card information is encrypted at the moment of swipe. Square doesnt store data on your device after a payment has been processed.<br/>
+                            <a href="#">Learn about a more ></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center wow bounceInRight" style="width: 18rem;">
+                    <div class="i-percent d-flex justify-content-center align-content-center m-auto  ">
+                        <i class="fa-solid fa-percent text-center" id="i-percent"></i>
+                    </div>
+                    <div class="overview-text ">
+                        <h5 class="fw-bold">Clear pricing, fast deposits</h5>
+                        <p class="text-muted">Pay 2.75% per swipe for Visa, Swipe $00 and see $97.25 in your bank account in one to two business days.
+                            <br><a href="#">Learn about a more ></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="border ">
+        <div class="container">
+            <h1 class="text-primary text-center my-5 fw-bolder wow wobble">FEATURES</h1>
+            <div class="row g-1">
+                <div class=" text-start col-md-5 my-5 wow bounceInLeft" style="width: 30rem;">
+                    <h3>Fast setup, no commitments</h3>
+                    <p class="text-muted">Sign up for Sqware and wet drop your tree Square Reader in the mai--no commitments or long-term contracts.</p>
+                    <h5 class="pt-3">All major credit cards</h5>
+                    <p class="text-muted">Process Visa. MasterCard, Discover, and American Express at 2.75% per swipe. Manually enter card information and pay 35% 156 per transaction.</p>
+                    <h5 class="pt-3">No signal, no problem</h5>
+                    <p class="text-muted"> Swipe payments without a connection in offline mode and pay the usual 2.75% per swipe.</p>
+                </div>
+                <div class="col-md-7 m-auto wow bounceInRight" style="width: 40rem;">
+                    <img src="images/fastsetup.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features-2" class="pt-5 border">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-7">
+                    <img src="images/send.jpj.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-md-5 my-5 text-start ">
+                    <h3>Send receipts customers keep.</h3>
+                    <p class="text-muted">Send receipts via emait or next message, or connect a receipt printer to a tablet. Personalize your signature screen and recepts with a logo and cover photo </p>
+                    <h5 class="pt-3">Pro tip: improve your tips</h5>
+                    <p class="text-muted">Customers sign and tip right on the device in one easy, math free motion -easier for them and better for your busness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features-3" class="pt-5 border">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="width: 40rem;">
+                    <h3>Accept Apple Pay at your business.</h3>
+                    <p>The Square contactiess and chip reader turns your point of sale into a complete payment solution. Whether its Apple Pay or a chip card. you can accept any way your customer wants to pay. </p>
+                    <ul>
+                        <li>Accepts NFC payments (ike Apple Pay) and chip cards.</li>
+                        <li class="pt-4">Connects wirelessly to your compatible iOS or Android devices.
+                            <p><a href="">Check device compatibility.</a></p>
+                        </li>
+                        <li>Packs a powerful battery and charges easily with the micro USB port.</li>
+                    </ul>
+                    <button class="btn btn-primary text-white px-4 my-4">ORDER YOUR READER</button>
+                    <div class="video-text d-flex align-items-center justify-content-start">
+                        <div class="watch-video bg-primary d-flex align-items-center justify-content-center mt-2">
+                            <i class="fa-sharp fa-solid fa-play"></i>
+                        </div>
+                        <a href="" class="text-primary ps-2">Watch the video</a>
+                    </div>
+                </div>
+                <div class="col-md-6" style="width: 30rem;">
+                    <img src="images/access.jpg" class="w-100 " alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features-4" class="pt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 mx-5" style="width: 30rem;">
+                    <h2>Do business anywhere with Square Register.</h2>
+                    <p class="text-muted">Square Register gives you everything you need in one free point. of-sale app. Free app updates keep you equipped with the latest point-of-sale features. </p>
+                    <ul class="text-muted ">
+                        <li>Accept payments even without a connection.</li>
+                        <li>Send receipts via email or bext message, or print them out .</li>
+                        <li>Collect customer feedback from Digital receipts.</li>
+                        <li>Print or email sales reports. </li>
+                        <li>Adiust taxes. tipping, and discounts.</li>
+                        <li>Manage inventory in real time.</li>
+                        <li>Accest orders online for pickup in person.</li>
+                        <li>Create emblovee logins.</li>
+                    </ul>
+                    <a href="" class="text-primary ps-2">Learn more about Square Register ></a>
+                </div>
+                <div class="col-md-6 mx-5" style="width: 28rem;">
+                    <img src="images/bussiness.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features-5" class="pt-5">
+        <div class="features-text-5 text-center">
+            <h2>More ways to swipe.</h2>
+            <p class="text-muted">Square Reader isn't the only way to accept payments with Square- <br> Square Register works with a variety of hardware, whatever your business needs</p>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 wow bounceInLeft" style="width: 25rem;">
+                    <img src="images/stand.jpg" class="w-100" alt="">
+                    <h5>Square Stand</h5>
+                    <p class="text-muted">Transform an iPad into a countertop poink of sale with Square Stand for just 599, instantly connect a cash drawer, receipt printer, and bar code scanner with the USB hardware hub.</p>
+                    <a href="" class="text-primary">Learn about Square Stand ></a>
+                </div>
+                <div class="col-md-6 wow bounceInRight" style="width: 25rem;">
+                    <img src="images/red-reader.jpg" class="w-100" alt="">
+                    <h5>SQUA (RED) Reader</h5>
+                    <p class="text-muted">When you order a (PRODUCTIRED* card reader, the $10 donation can provide more than 24 days of ife-saving pills for someone living with HIV in Africa.</p>
+                    <a href="" class="text-primary">Order your SQUA (RED) Reader ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-specs" class="py-5 ">
+        <div class="container">
+            <div class="tectspecs-text text-center">
+                <h1 class="text-primary text-center fw-bolder wow fadeInDownBig">TECH SPECS</h1>
+                <p class="text-muted">Square Reader plugs into the standard 3.5 mm meadset jack of a smartehone or tablet.<br> Sovare Reader is compatible with most Apple devices running IOs 8 0 or later and<br> Android devices running 40 or later,</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pt-4">
+                    <div class="check-text d-flex justify-content-between">
+                        <p>iPhone running IOS 8.0 or later</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <hr>
+                    <div class="check-text d-flex justify-content-between">
+                        <p>iPad and iPad mini running IOS 8.0 or later</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <hr>
+                    <div class="check-text d-flex justify-content-between">
+                        <p>iPod touch running iOS 8.0 or later</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <hr>
+                    <div class="check-text d-flex justify-content-between">
+                        <p>Smartphones running Android 4.0 or later</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <hr>
+                    <div class="check-text d-flex justify-content-between">
+                        <p>Tablets running Android 4,0 or later</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <hr>
+                    <a href="" class="text-primary">Check device compatibility ></a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/devices.jpg" class="w-100" alt="">
+                </div>
+                <a href="" class="text-primary text-center pt-2">Check device compatibility ></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class=" text-center ">
+        <div class="container pt-5">
+            <div class="works-header text-center">
+                <h1 class="text-primary pb-5 fw-bolder wow fadeInDownBig">SHOP</h1>
+                <p class="text-muted fw-bolder">You can look at what you need, you can buy it now</p>
+            </div>
+            <ul class="nav nav-pills d-flex justify-content-center align-items-center mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active fw-bolder" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bolder" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Stands</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bolder" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Readers</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="row gy-3 p-5 ">
+                        <div class="col-md-4">
+                            <div class="work-item position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="images/productstand1.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                <img src="images/productstand2.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productstand3.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard1.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard2.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard3.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="row gy-3 p-5 ">
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productstand1.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productstand2.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productstand3.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Stand</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="row gy-3 p-5 ">
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard1.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard2.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="work-item position-relative">
+                                <img src="images/productcard3.jpg" class="w-100">
+                                <div class="work-layer d-flex justify-content-center align-items-center">
+                                    <div class="work-content text-center text-white">
+                                        <h3 class="fw-bolder">Card Reader</h3>
+                                        <p id="buynow">BUY NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class=" py-5 text-center">
+        <h1 class="text-primary fw-bolder wow fadeInDownBig">TESTIMONIALS</h1>
+        <div class="container py-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="client-item  text-center">
+                            <img class="rounded-circle img-thumbnail" src="images/testimonials1.jpg" class="" alt="...">
+                            <i class="fa-solid fa-quote-left d-block fs-1"></i>
+                            <p class="text-muted fw-bolder py-3">"Your payments, business banking• accounts, and cash flow, synced together seamlessly. When you take payments and bank through Square, everything is connected. Watch your sales flow directly into Square Banking, so accessing
+                                and moving your money is fast, easy—and can even be automated."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="client-item  text-center">
+                            <img class="rounded-circle img-thumbnail" src="images/testimonials2.jpg" class="" alt="...">
+                            <i class="fa-solid fa-quote-left d-block fs-1"></i>
+                            <p class="text-muted fw-bolder py-3">"Process credit card payments in less than two seconds. Square Reader is among the fastest out there when it comes to processing chip cards. Need more speed? Take contactless NFC payments for the fastest way to pay."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="client-item  text-center">
+                            <img class="rounded-circle img-thumbnail" src="images/testimonials3.jpg" class="" alt="...">
+                            <i class="fa-solid fa-quote-left d-block fs-1"></i>
+                            <p class="text-muted fw-bolder py-3">"Square Stand A powerful iPad point of sale with an intuitive,<br> customer-driven checkout and integrated payments - no readers required."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators position-static">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class=" py-5 text-center">
+        <h1 class="text-primary fw-bolder mb-5">PRICING</h1>
+        <div class="form-check form-switch d-flex justify-content-center ps-5 my-3">
+            <input class="form-check-input px-4" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        </div>
+        <h4 id="wordCustomize" class="text-primary">MOST POPULAR</h4>
+        <div class="container ">
+            <div class="row m-auto d-flex justify-content-center">
+                <div class=" card-basic col-md-3 mx-3 py-3 my-3">
+                    <h4>BASIC</h4>
+                    <h2 class=" fw-bolder py-3 ">$ 119,99</h2>
+                    <h6>200 Full User</h6>
+                    <h6>1,000 Email Previews</h6>
+                    <h6>300 Contacts Per Client</h6>
+                    <h6>4,000 Credit-Card Reader</h6>
+                    <button class=" btn btn-primary my-3 px-4 fw-bolder">BUY NOW</button>
+                </div>
+                <div id="cardCustomize" class=" card-basic col-md-3 mx-3 py-3 bg-primary text-white my-3">
+                    <h4>STANDARD</h4>
+                    <h2 class="fw-bolder py-3 ">$ 124,99</h2>
+                    <h6>1,000 Full User</h6>
+                    <h6>10,000 Email Previews</h6>
+                    <h6>1,000 Contacts Per Client</h6>
+                    <h6>15,000 Credit-Card Reader</h6>
+                    <button id="btnCustomize" class="btn btn-light btn-custom my-3 px-4 fw-bolder shadow-lg ">BUY NOW</button>
+                </div>
+                <div class=" card-basic col-md-3 mx-3 py-3 my-3">
+                    <h4>ADVANCED</h4>
+                    <h2 class="fw-bolder py-3 ">$ 139,99</h2>
+                    <h6>500 Full User</h6>
+                    <h6>5,000 Email Previews</h6>
+                    <h6>500 Contacts Per Client</h6>
+                    <h6>8,000 Credit-Card Reader</h6>
+                    <button class="btn btn-primary my-3 px-4 fw-bolder">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icon text-center text-white py-2 ">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <h6 class=" text-white text-center py-3">CopyRight @ By <span class="text-primary fw-bolder">Mostafa Hosny</span> All Right Reserved</h6>
+    </footer>
+
+    <script src="js/jquery-3.6.3.min.js "></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
